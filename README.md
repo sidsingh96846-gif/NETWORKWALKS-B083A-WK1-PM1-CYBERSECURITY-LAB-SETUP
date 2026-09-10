@@ -54,6 +54,10 @@ VirtualBox was installed as the Hypervisor
 Step 3. Create the NAT Network
 A NAT Network was created in the VirtualBox Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Enabled NAT Network settings A NAT Network was selected because it allows more than one virtual machines connected on the same NAT Network to communicate with each other while also having outbound network connection.
 
+
+ 
+<img width="1907" height="1011" alt="Screenshot 2026-09-11 011705" src="https://github.com/user-attachments/assets/23c75392-bfb8-455f-a236-7f0ef420258c" />
+
 This network makes room for future attacker and target VMs to communicate within the lab.
 
 Step 4. Import Kali Linux
